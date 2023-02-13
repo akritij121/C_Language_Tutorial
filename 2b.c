@@ -2,9 +2,9 @@
 
 int main()
 {
-    char n;
-    printf("enter n");
-    scanf("%ch", &n);
+    int n;
+    printf("enter n- \n");
+    scanf("%d", &n);
     if (n >= 0 && n <= 9)
     {
         printf("n is a digit");
